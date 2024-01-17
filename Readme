@@ -1,1 +1,16 @@
-This is an AI trading bot, which uses schedulers after creating a signal function
+# AI Trading Bot
+
+This project is an AI trading bot that uses the `APScheduler`, `oandapyV20`, and `oanda_candles`libraries 
+to automate trading on the OANDA platform. The bot includes a flexible signal function that can be customized according to individual trading strategies.
+
+## Prerequisites
+
+Before running the bot, make sure you have the following installed:
+
+- Python 3.x
+- Required libraries: `oandapyV20`, `oanda_candles`, `APScheduler`
+
+You can install the necessary libraries using the following command:
+
+```bash
+pip install oandapyV20 oanda_candles apscheduler
